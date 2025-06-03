@@ -1,4 +1,4 @@
-# 🧊 Simulação de Resfriamento de Café com Redes Neurais e PINNs
+#  Simulação de Resfriamento de Café com Redes Neurais e PINNs
 
 Este projeto implementa a modelagem do resfriamento de uma xícara de café utilizando três abordagens:
 
@@ -6,7 +6,7 @@ Este projeto implementa a modelagem do resfriamento de uma xícara de café util
 2. **Rede Neural Simples** treinada apenas com dados sintéticos (temperatura vs tempo).
 3. **PINN (Physics-Informed Neural Network)** que aprende a constante de resfriamento `r` incorporando a equação diferencial como restrição física durante o treinamento.
 
-## 📌 Funcionalidades
+##  Funcionalidades
 
 - Geração de dados sintéticos com ruído a partir da solução analítica.
 - Treinamento de uma rede neural para prever a temperatura ao longo do tempo (inclusive fora da faixa de dados).
@@ -14,6 +14,6 @@ Este projeto implementa a modelagem do resfriamento de uma xícara de café util
 - Visualização gráfica das curvas de temperatura para comparação entre as abordagens.
 
 
-## 📈 Objetivo
+##  Objetivo
 
 Comparar o desempenho da regressão via redes neurais com e sem conhecimento físico embutido, destacando o poder das PINNs em problemas de extrapolação com poucos dados.

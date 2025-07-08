@@ -18,7 +18,9 @@ Este projeto implementa a modelagem do resfriamento de uma xícara de café util
 
 Comparar o desempenho da regressão via redes neurais com e sem conhecimento físico embutido, destacando o poder das PINNs em problemas de extrapolação com poucos dados.
 
-##  Resultados: Neste caso, observei que, ao utilizarmos uma regressão simples, a rede neural se comporta bem apenas nos dados iniciais fornecidos. No entanto, à medida que extrapola, ela se desvia do comportamento esperado. Por outro lado, quando aplicamos a PINN (Physics-Informed Neural Network), incorporando as leis físicas ao problema, a rede é capaz de representar com precisão o resfriamento da xícara de café, seguindo de perto a solução analítica.
+##  Resultados:
+
+Neste caso, observei que, ao utilizarmos uma regressão simples, a rede neural se comporta bem apenas nos dados iniciais fornecidos. No entanto, à medida que extrapola, ela se desvia do comportamento esperado. Por outro lado, quando aplicamos a PINN (Physics-Informed Neural Network), incorporando as leis físicas ao problema, a rede é capaz de representar com precisão o resfriamento da xícara de café, seguindo de perto a solução analítica.
 
 ![NN simples](img1e4.png)
 
